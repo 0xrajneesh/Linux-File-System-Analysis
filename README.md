@@ -1,6 +1,7 @@
 # Basic File System Analysis on Linux
 
 ## Introduction
+![LINUX FILE SYSTEM ANALYSIS (1)](https://github.com/user-attachments/assets/41d9af49-a051-4744-ba35-5f2b16e9e47c)
 
 File system analysis is a critical skill in cybersecurity, involving the examination of file structures and contents to detect anomalies, recover data, and understand system activities. This lab will guide you through basic file system analysis on a Linux system, helping you to identify, analyze, and interpret various file system components and metadata.   
 
