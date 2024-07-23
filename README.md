@@ -3,9 +3,9 @@
 ## Introduction
 
 File system analysis is a critical skill in cybersecurity, involving the examination of file structures and contents to detect anomalies, recover data, and understand system activities. This lab will guide you through basic file system analysis on a Linux system, helping you to identify, analyze, and interpret various file system components and metadata.
-`Category`: Digital Forensics and Incident Response
-`Sub-Category`: Linux Forensics
-`Level`: Beginner
+`Category`: Digital Forensics and Incident Response   
+`Sub-Category`: Linux Forensics   
+`Level`: Beginner   
 
 ## Pre-requisites
 
