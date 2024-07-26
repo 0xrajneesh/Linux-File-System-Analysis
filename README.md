@@ -87,7 +87,37 @@ Step4: Search for empty files
 ```bash
 find /home -empty
 ```
-Expected Output: List of .txt files under /home.
+Expected Output: List of all the empty files
+Step5: Find Files by Size
+
+```sh
+find /home -type f -size +100M
+```
+Expected Output: List of all the files of size more than 100 MBs
+
+Step5: Find Files by Modification Time:
+
+```sh
+find /home -type f -mtime -7
+```
+Expected Output: This command finds files modified in the last 7 days.
+
+Step6: Find Files by Access Time
+
+```sh
+find /home -type f -atime -7
+
+```
+Expected Output: This command finds files accessed in the last 7 days.
+
+Step7: Find Files by Access Time
+
+```sh
+find /home -type f -ctime -7
+
+```
+Expected Output: This command finds files created in the last 7 days.
+
 
 
 
