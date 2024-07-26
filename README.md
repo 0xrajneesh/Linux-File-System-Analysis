@@ -82,6 +82,15 @@ find /home -name "*.txt"
 ```
 Expected Output: List of .txt files under /home.
 
+Step4: Search for empty files
+
+```bash
+find /home -empty
+```
+Expected Output: List of .txt files under /home.
+
+
+
 ### Exercise 3: Disk Usage Analysis
 
 Step1: Report file system disk space usage:
