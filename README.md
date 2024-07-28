@@ -64,28 +64,28 @@ Expected Output:
 
 ### Exercise 2: Analyzing File Metadata
 
-Step1: Display file status:
+1. Display file status:
 
 ```bash
 stat /home/username/file.txt
 ```
 Expected Output: Detailed file information including inode number, access/modification/change times, size, and permissions.
 
-Step2: Determine file type:
+2. Determine file type:
 
 ```bash
 file /home/username/file.txt
 ```
 Expected Output: Description of the file type (e.g., ASCII text, directory, symbolic link).
 
-Step3: Search for specific files:
+3. Search for specific files:
 
 ```bash
 find /home -name "*.txt"
 ```
 Expected Output: List of .txt files under /home.
 
-Step4: Search for empty files
+4. Search for empty files
 
 ```bash
 find /home -empty
@@ -98,14 +98,14 @@ find /home -type f -size +100M
 ```
 Expected Output: List of all the files of size more than 100 MBs
 
-Step5: Find Files by Modification Time:
+5. Find Files by Modification Time:
 
 ```sh
 find /home -type f -mtime -7
 ```
 Expected Output: This command finds files modified in the last 7 days.
 
-Step6: Find Files by Access Time
+6. Find Files by Access Time
 
 ```sh
 find /home -type f -atime -7
@@ -113,7 +113,7 @@ find /home -type f -atime -7
 ```
 Expected Output: This command finds files accessed in the last 7 days.
 
-Step7: Find Files by Access Time
+7. Find Files by Access Time
 
 ```sh
 find /home -type f -ctime -7
