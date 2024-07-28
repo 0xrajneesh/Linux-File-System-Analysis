@@ -168,6 +168,7 @@ grep -c "password" /home/username/*.txt
 Expected Output: Number of lines containing "password" in each file.
 
 ### Exercise 5: Mounting and Unmounting File Systems
+The mount command in Linux is an essential tool in digital forensics for accessing and analyzing disk images and partitions without altering their content. Here are some ways to use the mount command effectively in digital forensics:
 
 Step1: List mounted file systems:
 
