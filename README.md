@@ -52,12 +52,15 @@ ls -la /home
 
 Expected Output: Detailed list including hidden files (those starting with a dot).
 
-3. Classify file types:
+3.  Recursively lists all files and directories
 
 ```bash
-ls -lF /home
+ls -lR /mnt/forensic
 ```
-Expected Output: A list where directories, executable files, and symbolic links are indicated with /, *, and @ respectively.
+Expected Output:
+
+- The directory structure with detailed information about each file and directory
+- Allows for easy identification of deeply nested files and directories
 
 ### Exercise 2: Analyzing File Metadata
 
