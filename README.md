@@ -35,6 +35,7 @@ File system analysis is a critical skill in cybersecurity, involving the examina
 
 ## Exercises
 
+If you prefer video, I've made a video on Linux File System Analysis. Click on the image👇
 [![Linux File System Analysis](https://img.youtube.com/vi/6Z8gRMZCg5c/0.jpg)](https://www.youtube.com/watch?v=6Z8gRMZCg5c)
 
 ### Exercise 1: Listing and Understanding Directory Contents
